@@ -1,6 +1,7 @@
 body {
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 ul.main-menu {
@@ -8,7 +9,7 @@ ul.main-menu {
     margin: 0;
     padding: 0;
     width: 15%;
-    min-width: 270px;
+    min-width: 350px;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
@@ -36,7 +37,7 @@ ul.main-menu {
   }
 
   li.navbar-title a {
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(184, 184, 184);
     text-decoration: none;
   }
@@ -59,4 +60,10 @@ ul.main-menu {
   
   li.menu-item a:hover:not(.active) {
     color: white;
+  }
+
+  .content {
+    margin-left: max(15%, 350px);
+    padding: 1px 16px;
+    font-size: 18px;
   }
