@@ -5,6 +5,31 @@ body {
     color: white;
 }
 
+.contact {
+  padding: 4px 2px
+}
+
+a:link, a:visited {
+  color: #1a9197;
+}
+
+a:hover, a:active {
+  color: #23b4b9;
+}
+
+a.contact-btn {
+  text-decoration: none;
+  padding: 16px 16px;
+}
+
+a.contact-btn:link, a.contact-btn:visited {
+  color: rgb(54, 54, 54);
+}
+
+a.contact-btn:hover, a.contact-btn:active {
+  color: white;
+}
+
 ul.main-menu {
     list-style-type: none;
     margin: 0;
@@ -68,3 +93,5 @@ ul.main-menu {
     padding: 1px 16px;
     font-size: 18px;
   }
+
+  
